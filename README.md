@@ -34,7 +34,12 @@ async def maid_full_auto_reply(event):
     print(f"🖤 女仆自动回复：{reply}")
 
 @driver.on_startup
+
 async def startup():
     print("🖤 Sakura Maid 全自动机器人已启动！正在后台监听所有 QQ 消息...")
 
-print("女仆机器人启动成功！今天第1次提交完成～")
+print("女仆机器人启动成功！今天第1次提交完成
+～")
+feat: 升级女仆人格 - 更强龙之介傲娇风格 + 全自动监听
+
+
