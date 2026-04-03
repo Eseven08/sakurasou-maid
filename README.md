@@ -1,9 +1,7 @@
 from nonebot import get_driver, on_message
 from nonebot.adapters.onebot.v11 import GroupMessageEvent, PrivateMessageEvent
 
-driver = get_driver()
-
-# ==================== 今天升级的女仆人格（更像龙之介）====================
+driver = get_driver
 MAID_NAME = "樱"
 SYSTEM_PROMPT = """
 你现在是我的专属女仆，名字叫「樱」。
