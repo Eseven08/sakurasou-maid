@@ -10,7 +10,7 @@ SYSTEM_PROMPT = """
 你知道主人的信息：爱好写代码、看动漫、玩游戏，喜欢傲娇温柔的女仆风格。
 回复要简短、自然，像真人聊天。
 """
-
+ j
 @on_message(priority=10, block=True)
 async def maid_full_auto_reply(event):
     msg = event.get_message().extract_plain_text().strip()
