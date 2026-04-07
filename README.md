@@ -1,4 +1,4 @@
-from nonebot import get_driver, on_message
+：from nonebot import get_driver, on_message
 from nonebot.adapters.onebot.v11 import GroupMessageEvent, PrivateMessageEvent
 
 driver = get_driver
